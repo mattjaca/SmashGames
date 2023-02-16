@@ -1,0 +1,48 @@
+body {
+    background-color: darkslategray;
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.branding {
+    font-weight: bolder;
+    font-size: 2em;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 1.5em;
+    /* padding: left/right top/bottom */
+    padding: 15px 10px;
+    /* padding-top: 10px */
+    /* padding: 10px */
+    /* padding: top right bottom left; */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:last-of-type {
+    padding-right: 20px;
+}
+
+.nav-item:hover {
+    background-color: darkslategray;
+}
+
+.nav-item:hover a {
+    color: white;
+}

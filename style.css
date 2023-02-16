@@ -1,10 +1,27 @@
+/*
+Midnight Green - #003638
+Atomic Tangerine - #F2A183
+White - #FFFFFF
+*/
+
 body {
-    background-color: darkslategray;
+    background-color: #003638;
     margin: 0;
 }
 
+/* Header stuff */
+
 header {
-    background-color: lightblue;
+    background-color: #F2A183;
+    /*
+        Black #000000
+        white #ffffff - #fff
+        #333 - #333333
+        #af0 - #aaff00
+
+        #red red grn grn blu blu alpha alpha
+        #ff0000ff
+    */
 }
 
 nav {
@@ -40,9 +57,14 @@ nav {
 }
 
 .nav-item:hover {
-    background-color: darkslategray;
+    background-color: #003638;
 }
 
 .nav-item:hover a {
+    color: white;
+}
+
+/* Main Body */
+main {
     color: white;
 }

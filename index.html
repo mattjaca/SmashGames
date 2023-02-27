@@ -20,16 +20,28 @@
         </nav>
     </header>
 
-    <main>
-        <p>At Smash Games, we know that gaming isn't just a hobby – it's a passion. We believe that video games have the power to transport players to new worlds, to tell stories, and to provide an escape from the everyday. That's why we've made it our mission to create high-intensity, action-packed video games that are as immersive as they are thrilling.</p>
+    <main id="main" class="centered">
+        <form action="index.html">
+            <label class="bold" for="name">Name:</label>
+            <input type="password" id="name" name="name" value="toast" placeholder="name here"><br />
 
-        <p>Founded by a team of seasoned game developers and passionate gamers, Smash Games is the result of a shared dream to create games that challenge and excite players. With years of experience in the industry, our team knows what it takes to create games that keep players engaged, and we're committed to bringing that expertise to every game we create.</p>
-    
-        <p>At Smash Games, we're driven by a love of gaming and a desire to push the boundaries of what's possible in the industry. Our team is constantly experimenting with new technology and gameplay mechanics, always striving to create games that are as innovative as they are entertaining.</p>
-    
-        <p>But at the end of the day, what matters most to us is our players. We're dedicated to creating games that provide an escape, an opportunity to let go of the stresses of daily life and lose oneself in a world of high-octane action and adventure. We believe that gaming is more than just entertainment – it's a way to connect with others, to explore new worlds, and to experience the thrill of the unknown.</p>
-    
-        <p>So whether you're a seasoned gamer or new to the world of video games, we invite you to join us on this journey. Let Smash Games take you on an adventure that will leave you breathless and energized – we promise, it'll be an experience you won't soon forget.</p>
+            <label class="bold" for="age">Age:</label>
+            <input type="text" id="age" name="age"><br />
+            
+            <label class="bold" for="cats">Has Cats:</label>
+            <input type="checkbox" id="cats" name="cats">
+            <label class="bold" for="dogs">Has dogs:</label>
+            <input type="checkbox" id="dogs" name="dogs"><br />
+            
+
+            <label class="bold">Animals:</label>
+
+            <input type="radio" name="animals" value="1"><label for="animals">Dog</label>
+            <input type="radio" name="animals" value="2"><label for="animals">Cat</label>
+            <input type="radio" name="animals" value="3"><label for="animals">Fish</label>
+            <br />
+            <input type="submit">
+        </form>
     </main>
 
 </body>

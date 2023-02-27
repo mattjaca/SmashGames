@@ -68,3 +68,17 @@ nav {
 main {
     color: white;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.centered {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+#name {
+    background-color: pink;
+}

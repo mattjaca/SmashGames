@@ -92,7 +92,6 @@ main {
 
 .deck {
     display: flex;
-    justify-content: space-evenly;
     gap: 2em;
     width: 80%;
     margin: auto;

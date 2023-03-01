@@ -110,11 +110,13 @@ main {
     width: 100%;
 }
 
-.card .card-body p {
-    padding-bottom: 15px;
+.card .card-body {
+    margin: 25px;
+    text-align: center;
 }
 
-.card .btn {
+/* Page styles */
+.btn {
     text-decoration: none;
     padding: 15px;
     background-color: #F2A183;
@@ -122,9 +124,5 @@ main {
     color: black;
     font-weight: bold;
     margin: 15px;
-}
-
-.card .card-body {
-    margin: 25px;
-    text-align: center;
+    line-height: 60px;
 }

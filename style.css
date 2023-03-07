@@ -159,3 +159,25 @@ div.description {
 .features .card {
     width: 350px;
 }
+
+.platforms .brand-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.0em;
+    justify-content: center;
+    padding-left: 0;
+    color: #001e1f;
+}
+
+.platforms .brand-list li {
+    padding: 5px;
+}
+
+.platforms .brand-list i {
+    transition: 2s;
+}
+
+.platforms .brand-list i:hover {
+    font-size: 1.5em;
+}

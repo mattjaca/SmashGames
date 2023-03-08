@@ -131,9 +131,7 @@ main {
 }
 
 /* Description styles */
-div.description {
-    border-top: 8px solid black;
-    border-bottom: 8px solid black;
+div.block {
     margin-top: 40px;
     margin-bottom: 40px;
     padding-left: 20%;
@@ -144,11 +142,20 @@ div.description {
 
 .description-text {
     font-size: 1.5em;
-    color: black;
 }
 
 .accent-color {
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
     background-color: #F2A183;
+    color: black;
+}
+
+.reversed-color {
+    border-top: 8px solid #F2A183;
+    border-bottom: 8px solid #F2A183;
+    background-color: black;
+    color: #F2A183;
 }
 
 .centered-fluid {
@@ -167,7 +174,8 @@ div.description {
     font-size: 2.0em;
     justify-content: center;
     padding-left: 0;
-    color: #001e1f;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .platforms .brand-list li {
@@ -175,9 +183,29 @@ div.description {
 }
 
 .platforms .brand-list i {
-    transition: 2s;
+    transition: 10s;
 }
 
 .platforms .brand-list i:hover {
     font-size: 1.5em;
+}
+
+.reqs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reqs div {
+    padding: 10px;
+    width: 350px;
+    /* text-align: left; */
+}
+
+.reqs div ul {
+    padding-left: 0;
+}
+
+.reqs div ul li {
+    list-style: none;
 }

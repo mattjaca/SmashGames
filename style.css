@@ -209,3 +209,17 @@ div.block {
 .reqs div ul li {
     list-style: none;
 }
+
+.questions ol {
+    text-align: left;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.questions {
+    margin: auto;
+}

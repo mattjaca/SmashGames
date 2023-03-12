@@ -10,6 +10,22 @@ Front page text:
 
     So whether you're a seasoned gamer or new to the world of video games, we invite you to join us on this journey. Let Smash Games take you on an adventure that will leave you breathless and energized – we promise, it'll be an experience you won't soon forget.
 
+System Requirements for All Games:
+
+    Minimum Requirements
+        OS: Win7
+        Processor: Intel I3 or Ryzen 3
+        RAM: 8gb
+        Graphics: Geforce GTX 570
+        Storage: 1gb HDD
+        
+    Recommended Requirements
+        OS: Win11
+        Processor: Intel I9 or Ryzen 7
+        RAM: 16gb
+        Graphics: Geforce RTX 2080
+        Storage: 5gb SSD
+
 Game Descriptions
 
     Game: Inferno Blast

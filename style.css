@@ -163,7 +163,7 @@ div.block {
     margin: auto;
 }
 
-.features .card {
+.card {
     width: 350px;
 }
 
@@ -210,8 +210,21 @@ div.block {
     list-style: none;
 }
 
-.questions ol {
+.contact-form {
     text-align: left;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type=text],
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 200px;
 }
 
 .faq {

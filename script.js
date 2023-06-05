@@ -109,6 +109,16 @@ const data = {
 
 //console.log(data.pages[1].blocks[2].cards[1].body);
 
+// we need a handle on the title
+
+
+let page = data.pages[1];
+document.title = data.brandName + " - " + page.pageName;
+// get access to the branding and change to data.brandName
+document.getElementById("brand").innerHTML = data.brandName.toUpperCase();
+// get access tp the page title h1 and change it to page.pageName
+document.getElementById("pageName").innerHTML = page.pageName;
+
 
 
 
